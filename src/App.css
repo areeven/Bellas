@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  color: #6f256f;
+}
+
+.boll {
+  top: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: #6f256f;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: boll 2s infinite;
+}
